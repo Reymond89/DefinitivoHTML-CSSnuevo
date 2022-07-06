@@ -1,0 +1,55 @@
+figure{
+    margin: 0;
+}
+
+figure img{
+    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 190px;
+    top: 100px;
+    
+}
+.banana img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 190px;
+    top: 140px;
+}
+
+.pollo img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 190px;
+    top: 195px;
+}
+
+
+.carne img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 190px;
+    top: 235px;
+}
+
+
+.limon img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 190px;
+    top: 290px;
+}
+
+
+.zanahoria img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 190px;
+    top: 330px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video  controls preload="auto">
+                <!-- para diferentes formatos de video se agrega
+                la etiqueta source de lo contrario se deja normal
+            video src="./videoplayback.mp4#t=5,12"-->
+                <source src="./videoplayback.mp4#t=5,12" >
+                <source src="./videoplayback.m4v#t=5,12" >
+            </video>
+        </section>
+    </main>
+</body>
+</html>
+
+<!-- IMPORTANTE ACLARAR EL ATRIBUTO CONTROLS AGREGA LOS BOTONES DE REPRODUCIR Y PRELOAD ES CARGAR EL VIDEO DESDE
+QUE SE CARGA LA PAGINA POR TAL MOTIVO EL USUARIO PODRA REPRODUCIR EL VIDEO Y EL MISMO YA ABRA CARGADO ESO HACE ESE ATRIBUTO -->
