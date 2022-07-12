@@ -1,0 +1,17 @@
+
+/* Reinicia estilos que trae por defecto el explorador y el
+box-sizing lo que hace es no permitir scrol hacia el lado derecho
+de la pagina */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}

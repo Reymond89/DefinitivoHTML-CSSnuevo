@@ -1,0 +1,22 @@
+
+/* tipos de selectores */
+/* por elemento */
+p {
+    color: blue;
+    font-size: 40px;    
+}
+
+/* por clase */
+
+/* class */
+.parrafo{
+    color: red;
+}
+
+/* id */
+
+#parrafo{
+    color: yellow;
+    font-size: 24px;
+}
+

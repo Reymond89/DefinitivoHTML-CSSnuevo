@@ -1,0 +1,50 @@
+/* quitar estulos del navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: serif;
+    color: purple;
+    margin-bottom: 18px;
+}
+/* id */
+/* #page-title{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* class no puede ejecutar el tipo de letra debido a que el id 
+esta por encima de la clase y es mala practica usar id */
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* Dos clases tienen mas importancia q una clase y una etiqueta
+por eso pinta de rojo a blog */
+.nav .blog{
+    background-color: red;
+}
+/* Evitar el importan debido a que esta etiqueta esta por encima de los id 
+y clases y es una mala practica */
+/* #main-nav .blog{
+    background-color: red !important;
+} */
