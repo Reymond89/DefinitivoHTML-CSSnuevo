@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.item1 h3{
+    border: 1px black solid;
+    border-radius: 8px;
+    background-color: red;
+    font-size: 30px;
+    margin: auto;
+    padding: 32px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    top: 60px;
+
+}
+
+.item2 p{
+    border: 1px black solid;
+    font-size: 22px;
+    background-color: gainsboro;
+    margin: auto;
+    border-radius: 80px;
+    width: 800px;
+    padding: 120px 80px;
+
+   
+}
+
+.item2 p img{
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    border-radius: 80px;
+    width: 800px;
+    padding: 120px 80px;
+
+}   
