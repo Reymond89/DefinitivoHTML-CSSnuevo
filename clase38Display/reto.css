@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(145, 193, 236);
+    height: 63px;
+}
+
+.nav {
+
+    
+    font-size: 20px;
+    padding-right: 40px;
+    margin: auto;
+    text-align: end;
+    position: absolute;
+    top: 4%;
+    left: 70%;
+    
+    
+   
+    
+
+}
+
+.nav .list_item{
+    display: inline-block;
+    list-style: none;
+    
+
+    
+}
+
+.nav .list_item a{
+    text-decoration: none;
+}
+
+.list_item{
+   
+    color: white;
+}
+
+.logo img{
+   
+    height: 63px;
+    float: left;
+}
+
